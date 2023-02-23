@@ -21,7 +21,7 @@
                 <path fill="currentColor" d="M16 22L6 12l1.4-1.4l8.6 8.6l8.6-8.6L26 12z" />
             </svg>
         </button>
-        <ul class="dropdown-content absolute menu p-2 shadow bg-base-100 rounded-box w-52" style:display={isDropdownOpen ? 'block' : 'none'}>
+        <ul class="dropdown-content absolute menu p-2 shadow bg-white rounded-box w-52 z-10" style:display={isDropdownOpen ? 'block' : 'none'}>
 			<li><button class="btn text-slate-300">Item 1</button></li>
 			<li><button class="btn text-slate-300">Item 2</button></li>
 		</ul>

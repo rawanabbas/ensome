@@ -1,9 +1,10 @@
 <script lang="ts">
     export let content : string
-    // export let icon : string
-    // export let iconAlt : string
+    let className = '';
+    export { className as class };
+    export let onClick = () => {}
 </script>
-<button class="flex flex-row rounded-none bg-blue-500 text-white p-3">
+<button class="flex rounded-none text-white p-3 {className}" on:click={onClick}>
     <slot></slot>
     {content}
 </button>
